@@ -1,0 +1,82 @@
+.root {
+    -fx-background-color: black;
+    -fx-font-family: monospace;
+    -fx-padding: 5;
+    -fx-hgap: 5;
+    -fx-vgap: 5;
+}
+
+.text-field {
+    -fx-text-fill: lightgray;
+    -fx-alignment: center-right;
+    -fx-font: bold 25 monospace;
+    -fx-padding: 10;
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+}
+
+.button {
+    -fx-font-size: 16px;
+    -fx-background-radius: 5em;
+    -fx-border-radius: 5em;
+    -fx-background-insets: 0;
+}
+
+.button:focused {
+    -fx-border-color: white;
+}
+
+.button:armed {
+    -fx-border-color: yellow;
+}
+
+.button.num {
+    -fx-text-fill: white;
+    -fx-background-color: #333333; /* Gris oscuro */
+}
+
+.button.num:hover {
+    -fx-text-fill: #333333; /* Gris oscuro */
+    -fx-background-color: white;
+}
+
+.button.num:pressed {
+    -fx-text-fill: lightgray;
+    -fx-background-color: black;
+}
+
+.button.reset {
+    -fx-text-fill: black;
+    -fx-background-color: lightgray;
+}
+
+.button.reset:hover {
+    -fx-background-color: white;
+}
+
+.button.reset:pressed {
+    -fx-text-fill: lightgray;
+    -fx-background-color: black;
+}
+
+.button.op {
+    -fx-text-fill: white;
+    -fx-background-color: orange;
+}
+
+.button.op:hover {
+    -fx-background-color: darkorange;
+}
+
+.button.op:hover:default {
+    -fx-background-color: red;
+}
+
+.button.op:pressed {
+    -fx-text-fill: orange;
+    -fx-background-color: white;
+}
+
+.button.default {
+    -fx-background-color: orangered; /* Rojo anaranjado */
+}

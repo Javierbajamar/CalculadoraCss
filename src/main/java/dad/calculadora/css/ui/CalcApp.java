@@ -12,10 +12,12 @@ public class CalcApp extends Application {
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 		controller = new CalcController();
-		
+
+
 		primaryStage.setTitle("CalculadoraCss");
 		primaryStage.getIcons().add(new Image("/images/calculator-32x32.png"));
 		primaryStage.setScene(new Scene(controller.getView(), 300, 300));
+
 		primaryStage.show();
 		
 	}
