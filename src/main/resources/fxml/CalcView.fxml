@@ -10,7 +10,7 @@
 <GridPane fx:id="view" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" styleClass="root">
 	<stylesheets>
 		<URL value="@/css/Clasica.css" />
-		<!-- O puedes usar <URL value="@css/Moderna.css" /> dependiendo del estilo que prefieras -->
+
 	</stylesheets>
 	<columnConstraints>
 		<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />

@@ -32,11 +32,11 @@
 
 .button.num {
     -fx-text-fill: white;
-    -fx-background-color: #333333; /* Gris oscuro */
+    -fx-background-color: darkgrey;
 }
 
 .button.num:hover {
-    -fx-text-fill: #333333; /* Gris oscuro */
+    -fx-text-fill: #333333;
     -fx-background-color: white;
 }
 
@@ -78,5 +78,5 @@
 }
 
 .button.default {
-    -fx-background-color: orangered; /* Rojo anaranjado */
+    -fx-background-color: orangered;
 }
