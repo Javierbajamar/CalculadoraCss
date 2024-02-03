@@ -42,14 +42,17 @@ public class CalcController {
 
         styleChooser.valueProperty().addListener((obs, oldVal, newVal) -> {
             view.getStylesheets().clear();
+            String cssFile = "";
             if ("Clásica".equals(newVal)) {
-                view.getStylesheets().add("src/main/resources/css/Clasica.css");
+                cssFile = getClass().getResource("/css/Clasica.css").toExternalForm();
                 System.out.println("Clásica");
             } else if ("Moderna".equals(newVal)) {
-                view.getStylesheets().add("resources/css/Moderna.css");
+                cssFile = getClass().getResource("/css/Moderna.css").toExternalForm();
                 System.out.println("Moderna");
             }
+            view.getStylesheets().add(cssFile);
         });
+
 
         view.add(styleChooser, 0, 0);
     }
